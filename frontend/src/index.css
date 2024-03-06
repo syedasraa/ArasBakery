@@ -6,13 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .site-container {
   min-height: 100vh;
 }
-
 main {
   flex: 1;
+}
+.btn-primary {
+  background-color: #f8ddd7;
+  color: #a9802a;
 }
 .products {
   display: flex;
@@ -20,19 +22,72 @@ main {
   justify-content: center;
 }
 
-.product {
-  border: 1px solid;
-  border-color: black;
-  margin: 1rem;
-  width: 400px;
-  height: 650px;
+.rating span {
+  color: #ffc000;
 }
 
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+  max-width: 400px;
+  max-height: 400px;
+}
 .product img {
   width: 100%;
-  height: 500px;
+  max-width: 400px;
+  max-height: 400px;
 }
-
 .product-info {
   padding: 1rem;
+}
+.img-large {
+  max-width: 100%;
+}
+.img-thumbnail {
+  height: 80px;
+}
+.small-container {
+  max-width: 600px;
+  background-color: #ebe1f2;
+}
+
+.card {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+#home {
+  background-color: #f8ddd7;
+}
+
+#our {
+  font-family: Overlock;
+  color: #a9802a;
+  font-size: 40px;
+  /* align-self: center;
+  padding-left: 500px; */
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  border-bottom: 2px dotted #a9802a;
+}
+
+h3 {
+  font-family: Overlock;
+}
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
+}
+
+#endmsg {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(48, 22, 22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
