@@ -1,6 +1,5 @@
 
 # Ara's Bakery Delights 
-This project showcases my work in MERN 
 ![logoara](https://github.com/syedasraa/ArasBakery/assets/92538646/b8eb209a-6fe8-4123-be77-9d7153238ae6)
 <img width="960" alt="image" src="https://github.com/syedasraa/ArasBakery/assets/92538646/97bd204c-72c3-4ebf-a988-4e4012a91205">
 <img width="960" alt="Screenshot 2024-03-05 211845" src="https://github.com/syedasraa/ArasBakery/assets/92538646/515c43ac-9fca-4a16-b4dc-de68f01c93ce">
